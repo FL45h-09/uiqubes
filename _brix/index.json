@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Button",
+    "slug": "button",
+    "description": "Versatile button with primary/secondary variants and loading state.",
+    "status": "published",
+    "tags": ["button", "ui", "interactive"],
+    "path": "./button",
+    "preview": "./buttons/TailButton.jsx"
+  },
+  {
+    "name": "Modal",
+    "slug": "modal",
+    "description": "Accessible modal with focus trap and animation.",
+    "status": "draft",
+    "tags": ["accordion"],
+    "path": "./TailAccordion",
+    "preview": "./accordion/TailAccordion.jsx"
+  }
+]

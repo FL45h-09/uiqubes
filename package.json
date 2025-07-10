@@ -1,0 +1,38 @@
+{
+  "name": "uibrixapp",
+  "version": "1.0.1",
+  "description": "This repo is not a package. It's just a stash of code blocks — drop in what you need or contribute something useful. Real devs helping devs.",
+  "keywords": [
+    "react",
+    "components",
+    "next"
+  ],
+  "license": "MIT",
+  "author": "Vishal Ravanank",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.23.3",
+    "@splinetool/react-spline": "^4.0.0",
+    "@splinetool/runtime": "^1.10.15",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "24.0.4",
+    "@types/react": "19.1.8",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "postcss": "^8.5.6",
+    "shiki": "^3.7.0",
+    "tailwindcss": "^3.4.17"
+  }
+}

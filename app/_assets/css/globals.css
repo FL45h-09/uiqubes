@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 🌠 Brand Colors https://dribbble.com/shots/23805963-Landing-page-design */
+  
+  /* --color-primary: rgb(96 40 255 / 1); */
+  --color-primary: #6c47ff;
+  --color-secondary: rgb(147, 103, 233);         /* Deep Space Blue (your brand) */
+  --color-accent: #3DC2EC;          /* Star Gold */
+  /* --color-accent: #3A52ED;          Star Gold */
+
+  --gradient-primary: linear-gradient(90deg,rgba(108, 71, 255, 1) 0%, rgba(0, 0, 0, 0.17) 100%);
+  --btn-shadow: inset 0 -8px 32px #1e0d49, inset 0 0 12px rgba(255, 255, 255, .08), 0 53px 15px rgba(42, 16, 100, .01), 0 34px 14px rgba(16, 0, 51, .06), 0 19px 11px rgba(72, 30, 163, .34), 0 8px 8px rgba(139, 90, 245, .5), 0 2px 5px rgba(95, 54, 185, .58);
+  --btn-bg: rgba(23, 13, 39);
+  --btn-border: rgba(39, 30, 55);
+
+
+  /* ✅ State Colors */
+  --color-success: #10b981;         /* Emerald Green */
+  --color-warning: #fbbf24;         /* Amber */
+  --color-error: #ef4444;           /* Red */
+  --color-info: #3b82f6;            /* Blue */
+
+  /* 🔆 Optional Light/Dark Backgrounds */
+  --background: #ffffff;
+  --foreground: #171717;
+}
+  
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    /* --background: rgba(17, 24, 39, 1); */
+    --foreground: rgba(152, 147, 184, 1);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+
+.container{width: min(1350px, 96%); max-width: none; margin: 0 auto;}
+
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-brockmann), sans-serif;}
+/* a:hover{color: var(--color-primary);} */
+
+/* .bannercaption{background: radial-gradient(circle,rgb(2, 2, 2) 0%, rgba(28, 30, 36, 0) 100%);} */
+
+.bg-before{position: relative;}
+.bg-before::before{content: ""; position: absolute; width: 100%; height: 100%; left: 0; top: 80%; background: url(/images/banner-bg-img.svg) no-repeat center; background-size: cover; z-index: 1;}
+
+.banner-bg{position: relative;}
+.banner-bg::before{content: ""; position: absolute; width: 100%; height: 100%; left: 0; bottom: 0; background: linear-gradient(0deg,rgba(10, 10, 10, 1) 0%, rgba(0, 0, 0, 0.17) 20%); z-index: 1; pointer-events: none;}
+
+.blog-bg { position: relative; }
+.blog-bg::before { content: ''; position: absolute; inset: 0; z-index: 0; background: linear-gradient(to top right, #6366f1, #8b5cf6, #ec4899); opacity: 0.3; clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%); pointer-events: none; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); opacity: 1;}
+
+
+/* Firefox support */ 
+* { scrollbar-width: 12px; scrollbar-color: rgba(108, 71, 255, .4) transparent; }
+
+::-webkit-scrollbar { width: 12px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-primary); border-radius: 9999px; border: 2px solid transparent; background-clip: content-box; transition: background-color 0.2s ease; }
+::-webkit-scrollbar-thumb:hover { background: rgba(100, 116, 139, 0.7); }
+

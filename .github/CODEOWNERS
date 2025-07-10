@@ -1,0 +1,5 @@
+# All files in packages require a review from the core team
+/packages/* @FL45h-09
+
+# Optional: reviewers for specific folders
+/packages/_brix/* @FL45h-09
