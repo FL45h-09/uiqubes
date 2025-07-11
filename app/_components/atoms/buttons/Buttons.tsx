@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { CopyIcon, CopiedIcon } from '@/_components/atoms/svgIcons/SvgIcons';
 import { copyCode } from '@/libs/CopyCode';
 import type { ButtonHTMLAttributes, ReactNode } from "react";
+import Link from 'next/link';
 
 interface PrimaryButtonProps {
   btnType?: ButtonHTMLAttributes<HTMLButtonElement>["type"];
@@ -38,3 +39,12 @@ export const CopyButton = ({ codeBlock }: { codeBlock: string }) => {
     </button>
   );
 };
+
+
+export const BuyMeBeerBtn = ()=>{
+  return(
+    <Link href="https://www.buymeacoffee.com/uibrix" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-4 py-2 rounded-md shadow">
+      ☕ Buy me a coffee
+    </Link>
+  )
+}
