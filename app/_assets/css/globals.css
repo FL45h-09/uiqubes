@@ -78,3 +78,17 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-brockmann), sans-serif;}
 .embla {overflow: hidden;}
 .embla__container { display: flex;}
 .embla__slide { flex: 0 0 100%; min-width: 0; }
+
+.transform-gpu{transform: translate3d(var(--tw-translate-x),var(--tw-translate-y),0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));}
+@keyframes dash {
+  0% {
+    stroke-dasharray: 30, 30;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 30, 30;
+    stroke-dashoffset: -100;
+  }
+}
+
+/* .transform-gpu { animation: dash 1.5s linear infinite;} */

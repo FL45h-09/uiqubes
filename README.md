@@ -79,22 +79,22 @@ feature/component-button/responsive-fix
 
 ## To Work On (TODO List)
 
+- Button with variants – super search traffic & usage >> Done
+- Modal / Dialog – high utility for user actions (tailadmin.com) >> Done
+- Accordion / FAQ – common SEO-friendly content toggle >> Done
+- Breadcrumb – SEO structure
+- Progress bar / Spinner (Loader) – improve UX during async action (floatui.com)
+- Input / Search Box / Autocomplete – users search — e.g., "Google‑style search bar"
+- Checkbox / Switch – forms UX basics
+- Radio Group – common input variant (tailwindresources.com)
+- Dropdown / Select / ComboBox – Headless UI combobox is popular
+- Tooltip / Popover – small hints for better UX (floatui.com)
+- Pagination / Infinite Scroll – for blogs/dashboards with lots of content (helpy-ui)
+- Tabs – organize content cleanly (floatui.com)=
+- Table – used in dashboards, SEO-rich data structure (creative-tim.com, Flexy UI)
+- Card – product, blog, team member display (floatui.com)
+- Carousel / Slider – hero banners, product galleries (tailadmin.com)
+- Avatar / Profile Card – user identity UI (tailwindresources.com)
 - Header / Hero Section – big SEO keywords, high CTR (e.g. TailGrids hero examples) Flexy UI
 - Navbar (desktop + mobile hamburger) – essential for navigation and crawlers
 - Footer – links, sitemap, schema markup for SEO
-- Button with variants – super search traffic & usage
-- Input / Search Box / Autocomplete – users search — e.g., "Google‑style search bar"
-- Dropdown / Select / ComboBox – Headless UI combobox is popular
-- Modal / Dialog – high utility for user actions (tailadmin.com)
-- Accordion / FAQ – common SEO-friendly content toggle 
-- Tabs – organize content cleanly (floatui.com)=
-- Tooltip / Popover – small hints for better UX (floatui.com)
-- Checkbox / Switch – forms UX basics
-- Radio Group – common input variant (tailwindresources.com)
-- Table – used in dashboards, SEO-rich data structure (creative-tim.com, Flexy UI)
-- Pagination / Infinite Scroll – for blogs/dashboards with lots of content (helpy-ui)
-- Card – product, blog, team member display (floatui.com)
-- Carousel / Slider – hero banners, product galleries (tailadmin.com)
-- Breadcrumb – SEO structure
-- Avatar / Profile Card – user identity UI (tailwindresources.com)
-- Progress bar / Spinner (Loader) – improve UX during async action (floatui.com)
