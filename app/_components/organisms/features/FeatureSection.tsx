@@ -12,39 +12,28 @@ export const FeatureSection = () => {
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                 <div className="lg:pr-8 lg:pt-4">
                     <div className="lg:max-w-lg">
-                    <h2 className="text-base/7 font-semibold text-indigo-400">Deploy faster</h2>
-                    <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">A better workflow</p>
-                    <p className="mt-6 text-lg/8 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
-                    <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
-                        <div className="relative pl-9">
-                        <dt className="inline font-semibold text-white">
-                            <svg className="absolute left-1 top-1 size-5 text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                            <path fillRule="evenodd" d="M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z" clipRule="evenodd" />
-                            </svg>
-                            Push to deploy.
-                        </dt>
-                        <dd className="inline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
-                        </div>
-                        <div className="relative pl-9">
-                        <dt className="inline font-semibold text-white">
-                            <svg className="absolute left-1 top-1 size-5 text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                            <path fillRule="evenodd" d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z" clipRule="evenodd" />
-                            </svg>
-                            SSL certificates.
-                        </dt>
-                        <dd className="inline">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</dd>
-                        </div>
-                        <div className="relative pl-9">
-                        <dt className="inline font-semibold text-white">
-                            <svg className="absolute left-1 top-1 size-5 text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                            <path d="M4.632 3.533A2 2 0 0 1 6.577 2h6.846a2 2 0 0 1 1.945 1.533l1.976 8.234A3.489 3.489 0 0 0 16 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234Z" />
-                            <path fillRule="evenodd" d="M4 13a2 2 0 1 0 0 4h12a2 2 0 1 0 0-4H4Zm11.24 2a.75.75 0 0 1 .75-.75H16a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V15Zm-2.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75h-.01Z" clipRule="evenodd" />
-                            </svg>
-                            Database backups.
-                        </dt>
-                        <dd className="inline">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</dd>
-                        </div>
-                    </dl>
+                        <h2 className="text-base/7 font-semibold text-indigo-400">Deploy faster <span className="block mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">A better workflow</span></h2>
+                        <p className="mt-6 text-lg/8 text-gray-300">Improve your developer workflow with ready-to-use UI components for React/Next.js — just copy, paste, and start building smarter.</p>
+                        <ul className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
+                            <li className="relative pl-10">
+                                <span className="inline-block text-indigo-400 text-[30px] absolute left-0 top-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 -960 960 960" width="1em" fill="currentColor"><path d="M620-163 450-333l56-56 114 114 226-226 56 56-282 282Zm220-397h-80v-200h-80v120H280v-120h-80v560h240v80H200q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h167q11-35 43-57.5t70-22.5q40 0 71.5 22.5T594-840h166q33 0 56.5 23.5T840-760v200ZM480-760q17 0 28.5-11.5T520-800q0-17-11.5-28.5T480-840q-17 0-28.5 11.5T440-800q0 17 11.5 28.5T480-760Z"/></svg>
+                                </span>
+                                <p className="leading-normal"><span className='font-semibold text-white'>Instant Copy-Paste : </span>Skip the boilerplate. Drop in components and see results in seconds — no config needed.</p>
+                            </li>
+                            <li className="relative pl-10">
+                                <span className="inline-block text-indigo-400 text-[30px] absolute left-0 top-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" width="1em" viewBox="0 -960 960 960" fill="currentColor"><path d="M216-192v-240h-72v-72h217v72h-73v240h-72Zm0-384v-192h72v192h-72Zm156 0v-72h72v-120h72v120h72v72H372Zm72 384v-312h72v312h-72Zm228 0v-120h-73v-72h217v72h-72v120h-72Zm0-264v-312h72v312h-72Z"/></svg>
+                                </span>
+                                <p className="leading-normal"><span className='font-semibold text-white'>Effortless Customization : </span>Tweak props or apply Tailwind classes to make every component fit your brand perfectly.</p>
+                            </li>
+                            <li className="relative pl-10">
+                                <span className="inline-block text-indigo-400 text-[30px] absolute left-0 top-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 -960 960 960" fill="currentColor"><path d="m384-360 51-51-69-69 69-69-51-51-120 120 120 120Zm192 0 120-120-120-120-51 51 69 69-69 69 51 51ZM216-144q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h528q29.7 0 50.85 21.15Q816-773.7 816-744v528q0 29.7-21.15 50.85Q773.7-144 744-144H216Zm0-72h528v-528H216v528Zm0-528v528-528Z"/></svg>
+                                </span>
+                                <p className="leading-normal"><span className='font-semibold text-white'>Production Ready : </span>Clean code, responsive design, and accessibility baked in — no compromises.</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <CodeBlock />

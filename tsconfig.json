@@ -18,6 +18,7 @@
     "plugins": [{ "name": "next" }],
     "paths": {
       "@/*": ["./app/*"],
+      "@/brix/*": ["./_brix/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

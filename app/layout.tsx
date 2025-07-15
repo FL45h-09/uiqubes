@@ -20,7 +20,10 @@ const brockmann = localFont({
   });
 
 export const metadata: Metadata = {
-  title: "UIBrix - Reusable React & Next.js UI Components",
+  title: {
+    default: "UIBrix - Reusable React & Next.js UI Components",
+    template: "%s | UIBrix - Reusable UI Components",
+  },
   description: "Free, open-source library of modern plug-and-play UI components. Contribute or use. No bloat. Just clean code.",
   openGraph: {
     title: "UIBrix - Reusable React & Next.js UI Components",

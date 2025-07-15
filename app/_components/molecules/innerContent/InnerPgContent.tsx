@@ -8,7 +8,7 @@ type ReadMoreProps = {
 };
 
 export const InnerPgContent = ({
-  collapsedHeight = 100,
+  collapsedHeight = 75,
   fadeOverlay = true,
   className = "",
 }: ReadMoreProps) => {
@@ -42,11 +42,11 @@ export const InnerPgContent = ({
         <span className="px-0 z-20">
           <button
             onClick={() => setExpanded(!expanded)}
-            className="min-w-[117px] bg-[var(--background)] hover:text-[var(--color-primary)] font-medium text-white text-sm cursor-pointer transition-all duration-300 ease-in-out pl-3 py-1 rounded-md flex items-center"
+            className="min-w-[117px] bg-[var(--background)] hover:text-[var(--color-primary)] font-medium text-white text-sm cursor-pointer transition-all duration-300 ease-in-out pl-3 py-1 rounded-md flex justify-between items-center"
           >
             {expanded ? "Read Less" : "Read More"}
-            <div className={`iconbox inline-block transition-transform duration-300 ease-in-out ${expanded ? 'rotate-180' : 'rotate-0'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="currentColor">
+            <div className={`iconbox inline-block transition-transform duration-300 text-[30px] ease-in-out ${expanded ? 'rotate-180' : 'rotate-0'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 -960 960 960" width="1em" fill="currentColor">
                 <path d="M480-384 288-576h384L480-384Z" />
               </svg>
             </div>

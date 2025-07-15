@@ -1,6 +1,7 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+@import "tailwindcss";
 
 :root {
   /* 🌠 Brand Colors https://dribbble.com/shots/23805963-Landing-page-design */

@@ -20,23 +20,24 @@
     "@clerk/nextjs": "^6.23.3",
     "@splinetool/react-spline": "^4.0.0",
     "@splinetool/runtime": "^1.10.15",
+    "@tailwindcss/postcss": "^4.1.11",
+    "axios": "^1.10.0",
     "embla-carousel-auto-scroll": "^8.6.0",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
     "gsap": "^3.13.0",
     "next": "15.3.4",
+    "postcss": "^8.5.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "24.0.4",
     "@types/react": "19.1.8",
-    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.3.1",
-    "postcss": "^8.5.6",
-    "shiki": "^3.7.0",
-    "tailwindcss": "^3.4.17"
+    "shiki": "^3.7.0"
   }
 }

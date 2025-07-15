@@ -5,7 +5,7 @@ import { ClerkButtons } from "@/_components/atoms/buttons/ClerkButtons";
 import { ScrollProgress } from "@/_components/atoms/scrollProgress/ScrollProgress";
 
 export const MainHeader = () => {
-  const baseClass = "w-[100%] fixed top-0 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 py-2 will-change-transform border-b-[1px] border-gray-100 border-opacity-0 backdrop-blur-[54px] bg-black/50 z-10 shadow-[inset_0px_1px_0px_0px_rgba(255,255,255,0.2),_0px_2px_8px_0px_rgba(0,0,0,0.16)] transform-gpu opacity-90";
+  const baseClass = "w-[100%] fixed top-0 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 py-2 will-change-transform border-opacity-0 backdrop-blur-[54px] bg-black/50 z-10 transform-gpu opacity-[97%] border-b-[1px] border-gray-100/20";
 
   return (
     <header className={`${baseClass}`}>

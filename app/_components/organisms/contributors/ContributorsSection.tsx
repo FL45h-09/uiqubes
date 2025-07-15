@@ -10,37 +10,22 @@ export const ContributorsSection = () => {
         <div className="slider-grid py-32">
             <SliderWrap className="rotate-[5deg]">
                 {Array.from({ length: 20 }).map((_, i) => (
-                <div key={i} className="embla__slide shrink-0 px-2 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/6">
-                    <div className="bg-[var(--color-primary)] p-4 rounded shadow-[var(--btn-shadow)] text-center">
-                    Slide {i + 1}
+                   <div key={i} className="shrink-0 px-2 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 rounded-2xl overflow-hidden">
+                        <div className="bg-[var(--color-primary)] p-6 shadow-[var(--btn-shadow)] text-center w-full h-full">
+                            Slide {i + 1}
+                        </div>
                     </div>
-                </div>
                 ))}
             </SliderWrap>
             <SliderWrap className='-mt-5 -rotate-[5deg]' direction="rtl">
                 {Array.from({ length: 20 }).map((_, i) => (
-                <div
-                    key={i}
-                    className="embla__slide shrink-0 px-2 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/6"
-                >
-                    <div className="bg-white p-4 rounded shadow text-center">
-                    Slide {i + 1}
+                <div key={i} className="shrink-0 px-2 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 rounded-2xl overflow-hidden">
+                        <div className="bg-[var(--color-primary)] p-6 shadow-[var(--btn-shadow)] text-center w-full h-full">
+                            Slide {i + 1}
+                        </div>
                     </div>
-                </div>
                 ))}
             </SliderWrap>
-            {/* <SliderWrap className='mt-5 rotate-[9deg]'>
-                {Array.from({ length: 20 }).map((_, i) => (
-                <div
-                    key={i}
-                    className="embla__slide shrink-0 px-2 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/6"
-                >
-                    <div className="bg-white p-4 rounded shadow text-center">
-                    Slide {i + 1}
-                    </div>
-                </div>
-                ))}
-            </SliderWrap> */}
         </div>
     </section>
   )

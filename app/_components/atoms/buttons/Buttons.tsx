@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { CopyIcon, CopiedIcon } from '@/_components/atoms/svgIcons/SvgIcons';
+import { CopyIcon, CopiedIcon } from '@/_assets/svgIcons/SvgIcons';
 import { copyCode } from '@/libs/CopyCode';
 import type { ButtonHTMLAttributes, ReactNode } from "react";
 import Link from 'next/link';

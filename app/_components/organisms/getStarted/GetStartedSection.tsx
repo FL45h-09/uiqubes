@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BgSquareSvg } from "@/_components/atoms/svgIcons/SvgIcons";
+import { BgSquareSvg } from "@/_assets/svgIcons/SvgIcons";
 
 export const GetStartedSection = () => {
   return (

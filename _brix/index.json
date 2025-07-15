@@ -1,12 +1,16 @@
 [
   {
-    "name": "Button",
-    "slug": "button",
+    "name": "Tailwind Button",
+    "slug": "TailButton",
     "description": "Versatile button with primary/secondary variants and loading state.",
     "status": "published",
     "tags": ["button", "ui", "interactive"],
     "path": "./button",
-    "preview": "./buttons/TailButton.jsx"
+    "preview": "./buttons/TailButton.jsx",
+    "metaData": {
+      "title": "Button",
+      "description": "Versatile button with primary/secondary variants and loading state."
+    }
   },
   {
     "name": "Modal",

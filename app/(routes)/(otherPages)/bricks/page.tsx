@@ -1,5 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
+import { getAllBrix } from '@/libs/apiCalls/brixApi';
+import { DynamicPreview } from '@/_components/atoms/dynamicComp/DynamicPreview';
 
 type ComponentMeta = {
   name: string;
@@ -16,16 +18,18 @@ export default function BrixPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/packages')
-      .then((res) => res.json())
-      .then((data) => {
+    const fetchComponents = async () => {
+      try {
+        const data = await getAllBrix();
         setComponents(data.data || []);
+      } catch (err) {
+        console.error('Failed to load components:', err);
+      } finally {
         setLoading(false);
-      })
-      .catch((err) => {
-        console.error('Failed to load packages:', err);
-        setLoading(false);
-      });
+      }
+    };
+
+    fetchComponents();
   }, []);
 
   if (loading) return <div>Loading components...</div>;
@@ -33,9 +37,12 @@ export default function BrixPage() {
   return (
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">Available Components</h1>
-      <ul className="space-y-4">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {components.map((comp) => (
           <li key={comp.slug} className="border p-4 rounded bg-white">
+            <div className="componentPreview mb-2">
+              {/* <DynamicPreview previewPath={comp.preview} /> */}
+            </div>
             <h2 className="text-xl font-semibold">{comp.name}</h2>
             <p className="text-gray-600">{comp.description}</p>
             <p className="text-xs mt-1 text-gray-500">

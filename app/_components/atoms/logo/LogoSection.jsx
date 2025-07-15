@@ -1,6 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
-import { LogoIcon } from "../svgIcons/SvgIcons";
+import { LogoIcon } from "@/_assets/svgIcons/SvgIcons";
 
 export const LogoSection = () => {
   return (
