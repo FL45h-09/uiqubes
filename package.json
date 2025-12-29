@@ -17,7 +17,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.23.3",
+    "@clerk/nextjs": "^6.36.5",
     "@splinetool/react-spline": "^4.0.0",
     "@splinetool/runtime": "^1.10.15",
     "next": "^16.1.1",
