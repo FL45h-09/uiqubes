@@ -26,10 +26,10 @@ export const ScrollProgress = () => {
   }, [])
 
   return (
-    <div className="fixed bottom-0 left-0 w-full h-[2px] z-50 bg-transparent">
+    <div className="fixed bottom-0 left-0 w-full h-0.5 z-50 bg-transparent">
       <div
         ref={progressRef}
-        className="h-full origin-left bg-[var(--color-primary)]"
+        className="h-full origin-left bg-(--color-primary)"
         style={{ transform: "scaleX(0)" }}
       />
     </div>
