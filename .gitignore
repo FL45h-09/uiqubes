@@ -35,6 +35,7 @@ yarn.lock
 apps/web/.next/
 apps/web/out/
 apps/web/build/
+apps/web/node_modules/
 
 # Next.js general
 
@@ -155,3 +156,11 @@ storybook-static/
 
 *.pem
 *.key
+
+# =========================
+
+# Node Modules (ALL workspaces)
+
+# =========================
+
+node_modules/
