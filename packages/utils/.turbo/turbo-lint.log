@@ -1,0 +1,6 @@
+
+> @uiqubes/utils@0.1.0 lint /Volumes/Disk-2/projects/uiqubes/packages/utils
+> eslint
+
+Warning: React version was set to "detect" in eslint-plugin-react settings, but the "react" package is not installed. Assuming latest React version for linting.
+Pages directory cannot be found at /Volumes/Disk-2/projects/uiqubes/packages/utils/pages or /Volumes/Disk-2/projects/uiqubes/packages/utils/src/pages. If using a custom path, please configure with the `no-html-link-for-pages` rule in your eslint config file.

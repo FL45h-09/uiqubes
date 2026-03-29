@@ -1,100 +1,94 @@
-# 🧱 UIBrix — Copy-Paste. Ship. Contribute.
+<div align="center">
+  <img src="apps/web/public/favicon.svg" alt="UIQubes Logo" width="100" />
+  <h1>🧱 UI Qubes</h1>
+  <p><strong>Copy-Paste. Ship. Contribute.</strong></p>
 
-Welcome to **UIBrix** — an open-source collection of pre-built, production-ready React and HTML components built to power modern web dev.
+  <p>
+    An open-source library of pre-built, production-ready React component blocks built to power modern web development. Skip the repetitive grind and focus on building your product's unique value.
+  </p>
 
-Whether you're building a landing page, a dashboard, or a full-stack app, UI Brix helps you skip the repetitive grind and focus on what matters — your product.
+  <p>
+    <a href="https://uiqubes.vercel.app/">Live Demo</a>
+    ·
+    <a href="./CONTRIBUTING.md">Contribute</a>
+    ·
+    <a href="https://discord.gg/543UyXXVGb">Discord</a>
+  </p>
+
+  <div>
+    <img src="https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js" alt="Next.js" />
+    <img src="https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react" alt="React" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=flat-square&logo=tailwind-css" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" />
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" />
+  </div>
+</div>
 
 ---
 
-## 🚀 What’s Inside
+## 🚀 What’s Inside?
 
-- **`/website/`** — A Next.js (TypeScript) app to browse, search, and favorite components.
-- **`/packages/`** — Reusable UI components (React/TS), utility functions, HTML+Tailwind snippets.
-- **Built with**: Next.js, TypeScript, TailwindCSS, pnpm workspaces.
+This is a modern **Turborepo** monorepo workspace containing:
+
+| Package / App | Description |
+| --- | --- |
+| **`apps/web`** | A Next.js (App Router) documentation and explorer app to browse, search, and favorite components. |
+| **`@uiqubes/ui`** | Reusable UI primitive components built with React, CVA, and standard accessibility in mind. |
+| **`@uiqubes/utils`** | Reusable logic and utility functions (e.g., `cn` for Tailwind class merging). |
+| **`@uiqubes/eslint-config`** \ **`@uiqubes/tsconfig`** | Shared ESLint & TypeScript configurations across the workspace. |
 
 ---
 
-## ✨ Live Demo
+## 🛠️ Getting Started Locally
 
-🌐 [UI Brix](https://uibrix.vercel.app/)
+### Prerequisites
+- Node.js >= 20
+- [pnpm](https://pnpm.io/installation) >= 10
 
----
-
-## 🛠️ Getting Started
-
-### 1. Clone + Install
-
+### 1. Clone & Install
 ```bash
-git clone https://github.com/FL45h-09/uibrix
-cd uibrix-monorepo
+git clone https://github.com/FL45h-09/uiqubes.git uiqubes-monorepo
+cd uiqubes-monorepo
 pnpm install
-pnpm dev
-
 ```
 
-### Packages
+### 2. Start Developing
+We use **Turborepo** to orchestrate tasks. You can run the entire local environment with one command:
+```bash
+pnpm dev
+```
+Navigate to `http://localhost:3000` to view the website.
 
-| Package         | Description                  |
-| --------------- | ---------------------------- |
-| `@uibrix/_brix` | Core React components        |
-| `@uibrix/utils` | Reusable logic / utilities   |
-| `@uibrix/html`  | Plain HTML + Tailwind blocks |
+---
 
-## Contributing
+## 🤝 Contributing
 
-We 💖 contributions!
+We 💖 contributions! Whether you want to improve an existing component, fix a bug, or add a brand new component to the library, your help is welcome.
 
-If you want to improve a component, fix bugs, or suggest new features:
+Before getting started, please review our [Contributing Guide](CONTRIBUTING.md) to understand our workflow, branch naming conventions, and code standards.
 
-Fork the repo
+### Features we are looking for (TODOs)
+- **High Impact Sections:** Hero Sections, Navbars, Footers.
+- **Form Primitives:** Inputs, Checkboxes, Switches, Comboboxes.
+- **Complex Modules:** Data Tables, Modals/Dialogs, Carousels.
 
-Create a new branch
+Please make sure you also read our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-Work your magic
+---
 
-Open a pull request
+## 💬 Community
 
-See CONTRIBUTING.md for the full guide.
+- Join our developer chat on [Discord](https://discord.gg/543UyXXVGb)
+- Use the **#uiqubes** hashtag when sharing your creations on social media!
 
-## Community
+---
 
-Join our dev chat [Discord](https://discord.gg/543UyXXVGb)
+## 📜 License
 
-Use the #uibrix hashtag when sharing
+UI Qubes is freely available under the [MIT License](LICENSE). You can use it in your personal, open-source, or commercial projects without restriction.
 
-## License
-
-MIT — feel free to use it for personal or commercial projects.
-
-## Credits
-
-Maintained by @FL45h-09 and the amazing contributor community.
-Made with ☕, 🔥, and a hatred for rebuilding buttons over and over.
-
-## Branch Naming Convention
-
-feature/component-button
-feature/component-button/hoverfix
-feature/component-button/responsive-fix
-
-## To Work On (TODO List)
-
-- Header / Hero Section – big SEO keywords, high CTR (e.g. TailGrids hero examples) Flexy UI
-- Navbar (desktop + mobile hamburger) – essential for navigation and crawlers
-- Footer – links, sitemap, schema markup for SEO
-- Button with variants – super search traffic & usage
-- Input / Search Box / Autocomplete – users search — e.g., "Google‑style search bar"
-- Dropdown / Select / ComboBox – Headless UI combobox is popular
-- Modal / Dialog – high utility for user actions (tailadmin.com)
-- Accordion / FAQ – common SEO-friendly content toggle 
-- Tabs – organize content cleanly (floatui.com)=
-- Tooltip / Popover – small hints for better UX (floatui.com)
-- Checkbox / Switch – forms UX basics
-- Radio Group – common input variant (tailwindresources.com)
-- Table – used in dashboards, SEO-rich data structure (creative-tim.com, Flexy UI)
-- Pagination / Infinite Scroll – for blogs/dashboards with lots of content (helpy-ui)
-- Card – product, blog, team member display (floatui.com)
-- Carousel / Slider – hero banners, product galleries (tailadmin.com)
-- Breadcrumb – SEO structure
-- Avatar / Profile Card – user identity UI (tailwindresources.com)
-- Progress bar / Spinner (Loader) – improve UX during async action (floatui.com)
+---
+<div align="center">
+  <i>Maintained by @FL45h-09 and an amazing community of contributors.</i><br/>
+  <i>Made with ☕, 🔥, and a hatred for rebuilding buttons over and over.</i>
+</div>

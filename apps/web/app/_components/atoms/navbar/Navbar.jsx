@@ -5,7 +5,7 @@ export const Navbar = () => {
     const pathName = usePathname();
     const menuItems = [
         {navTitle: "Home", navLink: "/", navIcon: "HomeIcon"},
-        {navTitle: "Brix", navLink: "/brix", navIcon: "AboutIcon"},
+        {navTitle: "Qubes", navLink: "/qubes", navIcon: "AboutIcon"},
         {navTitle: "Designs", navLink: "/designs", navIcon: "DesignIcon"},
         {navTitle: "Contributors", navLink: "/contributors", navIcon: "ProjectIcon"},
         {navTitle: "About Us", navLink: "/about-us", navIcon: "AboutIcon"},

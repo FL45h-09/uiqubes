@@ -9,9 +9,9 @@ export const GetStartedSection = () => {
         <BlobBg />
         <div className="relative z-10 mx-auto max-w-[700px] text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 leading-snug sm:leading-snug">Boost your productivity. <span className="block">Build UIs Faster | Better | Together.</span></h2>
-          <p className="text-lg text-gray-300 mb-8">UIBrix gives you ready-to-use React + Tailwind components built by devs, for devs. Copy, customize, and ship beautiful interfaces without wasting hours reinventing buttons.</p>
+          <p className="text-lg text-gray-300 mb-8">UIQubes gives you ready-to-use React + Tailwind components built by devs, for devs. Copy, customize, and ship beautiful interfaces without wasting hours reinventing buttons.</p>
           <div className="flex justify-center items-center gap-4 flex-wrap">
-            <Link href="/brix" className="inline-block rounded-md bg-indigo-500 px-6 py-3 text-white font-semibold hover:bg-indigo-600 transition">Get started</Link>
+            <Link href="/qubes" className="inline-block rounded-md bg-indigo-500 px-6 py-3 text-white font-semibold hover:bg-indigo-600 transition">Get started</Link>
             {/* <Link href="" className="inline-block text-indigo-300 hover:text-indigo-100 font-medium">Contribute <span aria-hidden="true">→</span></Link> */}
           </div>
         </div>

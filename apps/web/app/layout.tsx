@@ -20,27 +20,27 @@ const brockmann = localFont({
   });
 
 export const metadata: Metadata = {
-  title: "UIBrix - Reusable React & Next.js UI Components",
+  title: "UIQubes - Reusable React & Next.js UI Components",
   description: "Free, open-source library of modern plug-and-play UI components. Contribute or use. No bloat. Just clean code.",
   openGraph: {
-    title: "UIBrix - Reusable React & Next.js UI Components",
+    title: "UIQubes - Reusable React & Next.js UI Components",
     description: "Free, open-source library of modern plug-and-play UI components. Contribute or use. No bloat. Just clean code.",
-    url: "https://uibrix.vercel.app",
+    url: "https://uiqubes.vercel.app",
     type: "website",
     images: [
       {
-        url: "https://uibrix.vercel.app/social-preview.jpg",
+        url: "https://uiqubes.vercel.app/social-preview.jpg",
         width: 1200,
         height: 630,
-        alt: "UIBrix preview image",
+        alt: "UIQubes preview image",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "UIBrix - React & Next.js UI Component Library",
+    title: "UIQubes - React & Next.js UI Component Library",
     description: "Copy-paste UI blocks. Build fast. Contribute faster. Built for devs, by devs.",
-    images: ["https://uibrix.vercel.app/social-preview.jpg"],
+    images: ["https://uiqubes.vercel.app/social-preview.jpg"],
   },
   icons: {
     icon: [

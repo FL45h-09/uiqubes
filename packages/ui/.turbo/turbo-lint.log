@@ -1,0 +1,5 @@
+
+> @uiqubes/ui@0.1.0 lint /Volumes/Disk-2/projects/uiqubes/packages/ui
+> eslint
+
+Pages directory cannot be found at /Volumes/Disk-2/projects/uiqubes/packages/ui/pages or /Volumes/Disk-2/projects/uiqubes/packages/ui/src/pages. If using a custom path, please configure with the `no-html-link-for-pages` rule in your eslint config file.
